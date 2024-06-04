@@ -13,13 +13,14 @@ body{
     padding: 10px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
+
 .navbar-links{
     display:flex;
     column-gap: 20px;
 }
 .navbar-links a{
     text-decoration: none;
-    color:#1D232c;
+    color:#1D232C;
 }
 .navbar-links a:hover{
     text-decoration: underline;
@@ -57,7 +58,7 @@ body{
     display: flex;
     justify-content: center;
     gap: 50px;
-    padding:50px;
+    padding:30px;
 }
 .header-button{
     padding-left: 20px;
@@ -187,6 +188,13 @@ body{
     flex-wrap:wrap;
     justify-content: space-around ;
 }
+.products button{
+    margin-top: 10px;
+    color: #e3e6e2;
+    background-color: #1D232C;
+    border-radius: 10px;
+    padding:10px ;
+}
 .products-box{
     text-align: center;
     flex-basis:20%;
@@ -195,7 +203,91 @@ body{
     border-radius: 10px;
 }
 
-
+.ssd{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding:30px;
+}
+.ssd-image img{
+    border-radius: 10px;
+    padding-left: 0px;
+}
+.ssd button{
+    margin-top: 10px;
+    color: #e3e6e2;
+    background-color: #1D232C;
+    border-radius: 10px;
+    padding:10px ;
+}
+.smps{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding:30px;
+}
+.smps-image img{
+    border-radius: 10px;
+    padding-left: 0px;
+}
+.smps button{
+    margin-top: 10px;
+    color: #e3e6e2;
+    background-color: #1D232C;
+    border-radius: 10px;
+    padding:10px ;
+}
+.cooler{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding:30px;
+}
+.cooler-image img{
+    border-radius: 10px;
+    padding-left: 0px;
+}
+.cooler button{
+    margin-top: 10px;
+    color: #e3e6e2;
+    background-color: #1D232C;
+    border-radius: 10px;
+    padding:10px ;
+}
+.graphics-card{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding:30px;
+}
+.graphics-card img{
+    border-radius: 10px;
+    padding-left: 0px;
+}
+.graphics-card button{
+    margin-top: 10px;
+    color: #e3e6e2;
+    background-color: #1D232C;
+    border-radius: 10px;
+    padding:10px ;
+}
+.headphones{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding:30px;
+}
+.headphones img{
+    border-radius: 10px;
+    padding-left: 0px;
+}
+.headphones button{
+    margin-top: 10px;
+    color: #e3e6e2;
+    background-color: #1D232C;
+    border-radius: 10px;
+    padding:10px ;
+}
 @media screen and (max-width:700px){
     .navbar-menu-toggle{
         display:block;
